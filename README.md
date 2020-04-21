@@ -1,7 +1,16 @@
 CLI CRUD APP
 ---------------------------------------
 This simple CLI APP allow students to manage their enrollments and view course info.
+Before run:
 * bundle install
+* rake db:migrate
+* rake db:seed
+
+Run:
+ruby bin/run.rb
+
+========================================
+
 Contributors: Yann, Duke, Jess
 
 CRUD feature: Read => Students will be able to read info such as available and look at what courses are already enrolled.
